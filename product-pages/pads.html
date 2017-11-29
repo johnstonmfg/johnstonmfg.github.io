@@ -14,6 +14,7 @@
   				crossorigin="anonymous">
   		</script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<title>Cooler Pads</title>
 	</head>
 
 <div class="navBar">
@@ -59,6 +60,7 @@ body {
 	position: relative;
 	display: inline-block;
 	left: 50%;
+	
 	transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
@@ -142,7 +144,8 @@ body {
 .logoWrap h1{
 	margin: 0;
   	font-family: 'Yellowtail', cursive;
-  	font-size: 3.5vh;
+  	font-size: 30px;
+  	font-weight: 400;
   	color: #C60000;
   	text-align: center;
 
@@ -191,8 +194,14 @@ body {
 }
 
 @media only screen and (max-width: 599px) {
+	.navBar{
+ 		height: 50px;
+ 	}
  	.navButtonWrap .indent{
 		display: none;
+	}
+	.logoWrap h1{
+		font-size: 20px;
 	}
 
 }
@@ -228,6 +237,9 @@ body {
 	.navButtonWrap .indent{
 		margin-left: 10px;
 		display: initial;
+	}
+	.logoWrap h1{
+		font-size: 30px;
 	}
 }
 </style>
